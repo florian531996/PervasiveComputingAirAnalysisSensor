@@ -549,20 +549,22 @@ With the previously explained APIs the backend system includes the necessary fun
 
 
 \subsection{Creating the frontend application}
-A map overview of Perheim will be provided:
+With the air quality sensors and the backend in place this section will cover the consumable frontend application. This frontend should be accessible through a normal browser as well as a smartphone app. Hence the frontend will be implemented via a progressive web app to enable these two features. The homepage of this app will display a map of a certain region and show all the air quality sensor locations with their corresponding EAQI in it, see Figure \ref{fig:perheimMapMockup}.
+
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.48\textwidth]{perheimMapMockup.png}
-	\caption{perheimMapMockup}
-	\label{fig:credentialsFlow}
+	\caption{Mockup of frontend homepage with Mannheim as displayed region}
+	\label{fig:perheimMapMockup}
 \end{figure}
 
-Detailed measurements of each sensor will be provided:
+The user can interact with this map as he could in GoogleMaps and can also search for other regions. Moreover, each sensor can selected whereupon a popup will display the detailed current measurements of the selected sensor, see \ref{fig:DetailedSensorMeasurementsMockup}.
+
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.48\textwidth]{DetailedSensorMeasurementsMockup.png}
 	\caption{DetailedSensorMeasurementsMockup}
-	\label{fig:credentialsFlow}
+	\label{fig:DetailedSensorMeasurementsMockup}
 \end{figure}
 
 Notifications will be provided but no MockUp :>
