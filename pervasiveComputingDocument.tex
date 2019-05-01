@@ -1,4 +1,4 @@
-
+ 
 %% bare_conf.tex
 %% V1.3
 %% 2007/01/11
@@ -450,118 +450,58 @@ The backend system that provides an application programming interface (API) for 
 \item Save received data into a persistence as one tuple of the corresponding database table
 \item Error handling in the event of wrong message formats
 \item  Propagate crucial information if sensor measurements could be hazardous to health
+\item Authorization and authentication checks for each request
 \end{itemize}
+Moreover, the backend will also provide another API that sensors can poll from to retrieve the current	interval time for sensor measurements. In case of numerous distributed sensors this API will make it easy to adjust said interval and avoid unnecessary manual labour. It will provide the features:
+\begin{itemize}
+\item Accept GET requests and return the currently set measurement interval
+\item Accept PUT and POST request to set a new measurement interval
+\item Error handling in case of wrong request format
+\item Authorization and authentication checks for each request
+\end{itemize}
+With the two APIs defined before all the required interactions between each air quality sensor and the backend can be achieved.
+
+Since these two backend endpoints should provide authorization and authentication checks, a corresponding security system has to be implemented. For the first generation sensors the widely established open standard OAuth 2.0 will be utilized. Therefore, the backend system will also provide an authorization server that returns access tokens for the sensors. When a sensor is build the oauth client credentials flow has to be performed manually to retrieve an access token for the new sensor. After receiving the token it will be hardcoded into the sensor which will in return send this token in each of its measurement requests as authorization header. Figure \ref{fig:credentialsFlow} illustrates this concept in a simplified representation.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.48\textwidth]{AirQualityOAuthCredentialsFlow.png}
+	\caption{Air quality sensor oauth credentials flow}
+	\label{fig:credentialsFlow}
+\end{figure}
+
+Usually oauth access tokens have an expiration date but for the first generation sensors each token can be used for an unlimited time period. In a later implementation phase the security concept should be reworked since the manual set up is tedious and using an access token for a prolonged time may result in security vulnerabilities.
 
 
-\subsection{Creating a Frontend to display gathered data}
-Subsubsection text here.
+\subsection{Creating the frontend application}
+A map overview of Perheim will be provided:
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.48\textwidth]{perheimMapMockup.png}
+	\caption{perheimMapMockup}
+	\label{fig:credentialsFlow}
+\end{figure}
 
-\section{Test Section}
+Detailed measurements of each sensor will be provided:
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.48\textwidth]{DetailedSensorMeasurementsMockup.png}
+	\caption{DetailedSensorMeasurementsMockup}
+	\label{fig:credentialsFlow}
+\end{figure}
 
-Simple table example:
-\begin{tabular}{ c | c | c }
-	\hline			
-	1 & 2 & 3 \\
-	4 & 5 & 6 \\
-	7 & 8 & 9 \\
-	\hline  
-\end{tabular}
-
-% An example of a floating figure using the graphicx package.
-% Note that \label must occur AFTER (or within) \caption.
-% For figures, \caption should occur after the \includegraphics.
-% Note that IEEEtran v1.7 and later has special internal code that
-% is designed to preserve the operation of \label within \caption
-% even when the captionsoff option is in effect. However, because
-% of issues like this, it may be the safest practice to put all your
-% \label just after \caption rather than within \caption{}.
-%
-% Reminder: the "draftcls" or "draftclsnofoot", not "draft", class
-% option should be used if it is desired that the figures are to be
-% displayed while in draft mode.
-%
-%\begin{figure}[!t]
-%\centering
-%\includegraphics[width=2.5in]{myfigure}
-% where an .eps filename suffix will be assumed under latex, 
-% and a .pdf suffix will be assumed for pdflatex; or what has been declared
-% via \DeclareGraphicsExtensions.
-%\caption{Simulation Results}
-%\label{fig_sim}
-%\end{figure}
-
-% Note that IEEE typically puts floats only at the top, even when this
-% results in a large percentage of a column being occupied by floats.
-
-
-% An example of a double column floating figure using two subfigures.
-% (The subfig.sty package must be loaded for this to work.)
-% The subfigure \label commands are set within each subfloat command, the
-% \label for the overall figure must come after \caption.
-% \hfil must be used as a separator to get equal spacing.
-% The subfigure.sty package works much the same way, except \subfigure is
-% used instead of \subfloat.
-%
-%\begin{figure*}[!t]
-%\centerline{\subfloat[Case I]\includegraphics[width=2.5in]{subfigcase1}%
-%\label{fig_first_case}}
-%\hfil
-%\subfloat[Case II]{\includegraphics[width=2.5in]{subfigcase2}%
-%\label{fig_second_case}}}
-%\caption{Simulation results}
-%\label{fig_sim}
-%\end{figure*}
-%
-% Note that often IEEE papers with subfigures do not employ subfigure
-% captions (using the optional argument to \subfloat), but instead will
-% reference/describe all of them (a), (b), etc., within the main caption.
-
-
-% An example of a floating table. Note that, for IEEE style tables, the 
-% \caption command should come BEFORE the table. Table text will default to
-% \footnotesize as IEEE normally uses this smaller font for tables.
-% The \label must come after \caption as always.
-%
-%\begin{table}[!t]
-%% increase table row spacing, adjust to taste
-%\renewcommand{\arraystretch}{1.3}
-% if using array.sty, it might be a good idea to tweak the value of
-% \extrarowheight as needed to properly center the text within the cells
-%\caption{An Example of a Table}
-%\label{table_example}
-%\centering
-%% Some packages, such as MDW tools, offer better commands for making tables
-%% than the plain LaTeX2e tabular which is used here.
-%\begin{tabular}{|c||c|}
-%\hline
-%One & Two\\
-%\hline
-%Three & Four\\
-%\hline
-%\end{tabular}
-%\end{table}
-
-
-% Note that IEEE does not put floats in the very first column - or typically
-% anywhere on the first page for that matter. Also, in-text middle ("here")
-% positioning is not used. Most IEEE journals/conferences use top floats
-% exclusively. Note that, LaTeX2e, unlike IEEE journals/conferences, places
-% footnotes above bottom floats. This can be corrected via the \fnbelowfloat
-% command of the stfloats package.
+Notifications will be provided:
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.48\textwidth]{NotificationsMockup.png}
+	\caption{NotificationsMockup}
+	\label{fig:credentialsFlow}
+\end{figure}
 
 
 
 \section{Conclusion}
 The conclusion goes here \cite{Weyns2013}.
-See Figure \ref{fig:icon}.
-
-Figure example:
-\begin{figure}[htbp]
-	\centering
-	\includegraphics[width=0.48\textwidth]{icon.png}
-	\caption{Caption}
-	\label{fig:icon}
-\end{figure}
 
 
 
