@@ -430,27 +430,29 @@ Email: \{first name\}.\{last name\}@mail.uni-mannheim.de}
 
 \section{Introduction}
 
-Recent studies show the negative impact of bad air quality caused by industry and daily life on health and the environment. Furthermore, air quality is a topic which is facing much publicity due to its prevalence in law and media, especially regarding pollution laws leading to driving bans. Inhabitants of big cities are also affected by bad air quality, which might manifest itself in smog or an industrial smell.
+Air quality is a topic which is facing much publicity due to its prevalence in law and media, especially regarding pollution laws leading to driving bans. Poor air quality caused by industry and daily life leads to health rsisk andadversely impacts the environment. Inhabitants of big cities are particularly affectefd by air pollutants, which might manifest themselves in smog or an industrial smell.
 Meanwhile, the concept of internet of things devices is on the rise, enabled by increased computation power, cost and energy efficient sensors and the availability of a fast cellular network.
 \newline
 Due to this, the city of Perlheim may want to consider to implement an air quality control system based on a multitude of sensors in a connected network. Thereby, aggregated and location-based information about the current air quality can be provided.
 
 \section{Existing approaches}
-It should be noted that measuring air quality as part of a smart city is no new approach, but has already been discussed in research \cite{Nagaraj} and has also been implemented in real-world projects. Before describing our idea for the city of Perlheim, a brief overview of existing research and projects is given, futher showing that an air quality information system is a sensible idea. However, our concept is not directly based on one of these existing approaches.
+It should be noted that measuring air quality as part of a smart city is no new approach, but has already been discussed in research \cite{Nagaraj} and has also been implemented in real-world projects. Before describing our idea for the city of Perheim, a brief overview of existing research and projects is given, futher showing that an air quality information system is a sensible idea. However, our concept is not directly based on one of these existing approaches.
 
 There is also already a basic air monitoring system in place in the Rhein-Neckar area \cite{LandesanstaltfurUmweltBadenWurttemberg}.
-However, the new smart city approach differs in several aspects from the already existing system:
+However, the new smart city air quality concept for Perheim differs in several aspects from the already existing system:
 \begin{itemize} 
-\item The existing air monitoring consists of very few sensors per area. Our approach makes use of a higher number of small sensors to enable fine-granular monitoring.
-\item A new interconnected approach allows for futher integrating more sophisticated smart city concepts regarding automatic traffic diversion and health care in the future.
-\item With a live monitoring and an easy to use user interface, the visibility of the current air quality will be greatly improved for citizens.
+\item The existing air monitoring consists of very few sensors per area. However, the approach propsed in this paper makes use of a higher number of small sensors to enable fine-granular monitoring.
+\item A new interconnected approach also allows for futher integrating more sophisticated smart city concepts regarding automatic traffic diversion and health care in the future.
+\item Currently, the measurements are not easy to consume. With live monitoring and an intuitive user interface, the visibility of the current status of the air quality will be greatly improved for citizens.
 \end{itemize} 
 
 \section{Use cases}
-Monitoring the air quality and providing information directly might prove useful in differerent use cases. It is also important to note that air quality is a very relevant topic for the city of Perlheim. Perlheim's downtown area is heavily frequented by cars. Furthermore, the neighboring city is the headquarter of one of the world's biggest chemical companies whose emissions and increased risk of toxic accidents and fires might also adversely impact the air quality. Each of the following use cases can be enabled by an air quality information system. The required technology and sensors will be covered in section \ref{sec:TechnicalImplementation}.
+Monitoring the air quality and providing information directly might prove useful in differerent use cases. It is also important to note that air quality is a very relevant topic for the city of Perlheim. Perlheim's downtown area is heavily frequented by cars. Furthermore, one of the world's biggest chemical companies, whose emissions and increased risk of toxic accidents and fires might also adversely impact the air quality, is headquartered in the neighboring city. 
+\newline \newline
+Each of the following use cases can be enabled by an air quality information system. The required technology and sensors will be covered in section \ref{sec:TechnicalImplementation}.
 
 \subsection{Managing health risks}
-With an air quality information system, citizens can base their decision of when to leave the house or where to go for daily-life activities on the air quality. This might prove to be especially helpful for people with severe allergies or other adverse reactions to air pollutants like asthma. Also, health institutions can use the data and the home address of a patient to possibly correlate health issues with air pollution and thus providing more precise diagnosis. The air quality information system can also be used to give direct feedback in case of an acute risk by wildfires or leaks at chemical plants. In both cases it is usually recommended to stay inside. Negative health risks resulting from a high concentration of some air pollutants are summarized in a report carried out by the World Health Organization and are as folllows \cite{WorldHealthOrganization.2013}:
+With an air quality information system, citizens can base their decision of when to leave the house or where to go for daily-life activities on the air quality. This might prove to be especially helpful for people with severe allergies or other adverse reactions to air pollutants like asthma. Also, health institutions can use the data and the home address of a patient to possibly correlate health issues with air pollution and thus providing more precise diagnosis. The air quality information system can also be used to give direct feedback in case of an acute risk by wildfires or leaks at chemical plants. In both cases it is usually recommended to stay inside. Negative health risks resulting from a high concentration of some air pollutants are summarized in a report carried out by the World Health Organization and are as follows \cite{WorldHealthOrganization.2013}:
 
 \begin{description} 
 \item[O\textsubscript{3}] Long- and short-term excessive Ozone exposure can lead to respitory diseases and restrictions in activity.
@@ -467,20 +469,24 @@ It is also possible to  build on the air quality information system by integrati
 Poor air quality not only impacts human health, but also the well-being of animals and plants. A change in air quality can deeply affect an eco-system. Certain types of insects might decline in population, making room for pest and invasive species. TODO
 
 \subsection{Enabling law execution}
-The impact of poor air quality on health and the environment has also been recognized by law makers. There are several laws governing the air pollution for industry and car traffic. The most important EU directive is 2008/50/EC \cite{EurpoeanUnion.2008}. This directive provides legal limit values for certain pollutants such as particulate matter, nitrogen dioxide and carbon monoxide. An air quality control system can help to monitor these limits, take action when needed and control their execution. Unusual or extreme measurements also hint on law breaches for example in form of illegaly operarted facilities that are subject to approval. In this case, the local municipality is supposed to take action in compliance with §20 of the Bundes-Immissionsschutzgesetz (BImSchG) \cite{BundesrepublikDeutschland.1974}. In a more advanced smart city approach, the fine-granular air quality information will be integrated automatic traffic control. Thereby, automatic speed limits and the diversion of cars from heavily to less frequented areas and streets help to satisfy required pollution limits.
+The impact of poor air quality on health and the environment has also been recognized by law makers. There are several laws governing the air pollution for industry and car traffic. The most important EU directive is 2008/50/EC \cite{EurpoeanUnion.2008}. This directive provides legal limit values for certain pollutants such as particulate matter, nitrogen dioxide and carbon monoxide. An air quality control system can help to monitor these limits, take action when needed and control their execution. Unusual or extreme measurements also hint on law breaches for example in form of illegaly operarted facilities that are subject to approval. In this case, the local municipality is allowed to take action in compliance with \S20 and \S62 of the Bundes-Immissionsschutzgesetz (BImSchG) \cite{BundesrepublikDeutschland.1974}. In a more advanced smart city approach, the fine-granular air quality information will be integrated automatic traffic control. Thereby, automatic speed limits and the diversion of cars from heavily to less frequented areas and streets help to satisfy required pollution limits.
 
 \subsection{Psychological effect}
-Having a direct and real-time exposure to air quality data might result in an increased ecological awareness of citizens. Thereby, a voluntary switch from e.g. coal energy to a renewable energy provider or from environmental-unfriendly cars to electric vehicles might be initiated.
+Having a direct and real-time exposure to air quality data might result in an increased ecological awareness of citizens. Thereby, a voluntary switch from e.g. coal energy to a renewable energy provider or from environmental-unfriendly cars to electric vehicles might be initiated. In the same context, Perheim receives an image boost, showing the city as being environmental friendly and digitally advanced.
 
 \section{Economic feasability}
-While the initial cost of sensors is not expected to be exceptionally high, maintenance and installation must also be accounted for. Several different approaches are possible.
+While the initial cost of sensors is not expected to be exceptionally high, maintenance and installation must also be accounted for. Several different models to covering the costs are possible.
 
 \subsection{Tax-payer funded service}
-In the most straight-forward approach, the local municipality and thus indirectly the tax payer is responsible for covering all costs. The service is then provided to all citizens of Perlheim free of charge. This is a sensible idea because not only do the citizens benefit from the air quality information system, but also the municipality itself.
+In the most straight-forward approach, the local municipality and thus indirectly the tax payer is responsible for buying and installing the sensors. The service is then provided to all citizens of Perlheim free of charge. This is a sensible idea because not only do the citizens benefit from the air quality information system, but also the municipality itself.
 
-\subsection{Subscription based service}
+\subsection{Subscription-based service}
 Like other cloud and internet of things services, the air quality information could be provided as a subscription for a small fee of a few euros per month. However, this bears the disadvantage that most people might not be interested in the service or do not consider the price-value ratio as attractive. It could also be possible to keep some measured values free and enabling additional information based on more specific sensors for a small fee.
 As discussed before, an air quality information system could be used as a foundation for other products such as smart home devices and health care software. Therefore, a seperate subscription for commercial use might be reasonable.
+
+\subsection{Voluntary contributions}
+The sensors could also be sold to the citizens at a discount. Thereby, Perheim's inhabitants can contribute voluntarily by buying the sensors and installing them outside their home. Through this model, a fine granular network can be achieved and the city only needs to cover the costs for the discount and servers. However, this approach entirely relies on a wide participation rate in the population.
+
 \subsection{Data as a product}
 Historical and live data might be interesting for companies and researches. Selling complete data sets might complement one of the other models. 
 
