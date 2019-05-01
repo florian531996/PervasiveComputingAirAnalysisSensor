@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.23)  1 MAY 2019 21:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.13)  1 MAY 2019 22:32
 entering extended mode
 **./pervasiveComputingDocument.tex
 (pervasiveComputingDocument.tex
@@ -16,8 +16,7 @@ istensen
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 373.
 
-("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd
-"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -91,41 +90,38 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \c@IEEEbiography=\count91
 \@IEEEtranrubishbin=\box26
 )
-("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphic
-x.sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.s
+ty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.
-sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphic
-s.sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.s
+ty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.st
-y"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\gra
-phics.cfg"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graphi
+cs.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdf
-tex.def"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdftex
+.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen117
 \Gin@req@width=\dimen118
 )
-("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\tabularx.s
-ty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
 Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
-
-("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
 \col@sep=\dimen119
 \ar@mcellbox=\box27
@@ -143,13 +139,12 @@ Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
 \TX@cols=\count92
 \TX@ftn=\toks17
 )
-("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\latex\underscore\under
-score.sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\underscore\undersco
+re.sty"
 Package: underscore 2006/09/13
 LaTeX Info: Redefining \_ on input line 42.
 )
-("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fixltx2e.st
-y"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fixltx2e.sty"
 Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
 Applying: [2015/01/01] Old fixltx2e package on input line 46.
 
@@ -160,18 +155,11 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 
 Already applied: [0000/00/00] Old fixltx2e package on input line 53.
 )
-("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eurosym\eurosym.
-sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eurosym\eurosym.sty
+"
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 \@eurobox=\box29
-) (pervasiveComputingDocument.aux
-
-LaTeX Warning: Label `fig:credentialsFlow' multiply defined.
-
-
-LaTeX Warning: Label `fig:credentialsFlow' multiply defined.
-
-)
+) (pervasiveComputingDocument.aux)
 \openout1 = `pervasiveComputingDocument.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 353.
@@ -187,8 +175,8 @@ LaTeX Font Info:    ... okay on input line 353.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 353.
 LaTeX Font Info:    ... okay on input line 353.
 
-("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.
-mkii"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mki
+i"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count93
 \scratchdimen=\dimen126
@@ -202,40 +190,40 @@ mkii"
 \makeMPintoPDFobject=\count98
 \everyMPtoPDFconversion=\toks19
 )
-("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopd
-f-base.sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-b
+ase.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwa
-rerr.sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwarer
+r.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.
-sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
+"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdef
-inekeys.sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefine
+keys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcm
-ds.sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.
+sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptio
-ns.sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.
+sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvset
-keys.sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetkey
+s.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexc
-mds.sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmds
+.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\iflua
-tex.sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluatex
+.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -244,13 +232,13 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdfte
-xcmds.sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexcm
+ds.sty"
 Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf
-.sty"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.st
+y"
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -268,8 +256,7 @@ G,.JBIG2,.JB2,.eps]
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 402.
 
 
-("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd
-"
+("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
@@ -278,11 +265,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 445.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 445.
-
-
-LaTeX Warning: Reference `sec:TechnicalImplementation' on page 1 undefined on i
-nput line 453.
-
 
 Underfull \hbox (badness 1603) in paragraph at lines 451--454
 \OT1/ptm/m/n/10 is heav-ily fre-quented by cars. Fur-ther-more, one of the
@@ -293,7 +275,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 451--454
 
  []
 
-[1{C:/Users/D064987/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+[1{C:/Users/User/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
@@ -324,21 +306,28 @@ on page 2 undefined on input line 472.
 File: AirQualityOAuthCredentialsFlow.png Graphic file (type png)
 <use AirQualityOAuthCredentialsFlow.png>
 Package pdftex.def Info: AirQualityOAuthCredentialsFlow.png  used on input line
- 535.
+ 537.
 (pdftex.def)             Requested size: 251.56563pt x 163.22768pt.
  [3]
 <perheimMapMockup.png, id=19, 728.9634pt x 542.025pt>
 File: perheimMapMockup.png Graphic file (type png)
 <use perheimMapMockup.png>
-Package pdftex.def Info: perheimMapMockup.png  used on input line 555.
+Package pdftex.def Info: perheimMapMockup.png  used on input line 558.
 (pdftex.def)             Requested size: 251.56563pt x 187.04845pt.
 <DetailedSensorMeasurementsMockup.png, id=20, 653.8026pt x 522.753pt>
 File: DetailedSensorMeasurementsMockup.png Graphic file (type png)
 <use DetailedSensorMeasurementsMockup.png>
 Package pdftex.def Info: DetailedSensorMeasurementsMockup.png  used on input li
-ne 563.
+ne 567.
 (pdftex.def)             Requested size: 251.56563pt x 201.13689pt.
- (pervasiveComputingDocument.bbl
+<NotificationsMockup.png, id=21, 677.4108pt x 542.025pt>
+File: NotificationsMockup.png Graphic file (type png)
+<use NotificationsMockup.png>
+Package pdftex.def Info: NotificationsMockup.png  used on input line 576.
+(pdftex.def)             Requested size: 251.56563pt x 201.28218pt.
+ [4 <./AirQualityOAuthCredentialsFlow.png> <./perheimMapMockup.png> <./Detailed
+SensorMeasurementsMockup.png> <./NotificationsMockup.png>]
+(pervasiveComputingDocument.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 74--80
 \OT1/ptm/m/n/8 http://www.euro.who.int/[]-[]-data/assets/pdf[]-file/0006/238956
 /Health[]-
@@ -349,8 +338,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--103
 \OT1/ptm/m/n/8 internet.de/bimschg/BJNR007210974.html#BJNR007210974BJNG000
  []
 
-[4 <./AirQualityOAuthCredentialsFlow.png> <./perheimMapMockup.png> <./DetailedS
-ensorMeasurementsMockup.png>])
+)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -368,29 +356,26 @@ Before submitting the final camera ready copy, remember to:
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 2370 strings out of 492970
- 39653 string characters out of 3125705
- 107971 words of memory out of 3000000
- 6220 multiletter control sequences out of 15000+200000
+ 2378 strings out of 492970
+ 39674 string characters out of 3127037
+ 107964 words of memory out of 3000000
+ 6227 multiletter control sequences out of 15000+200000
  36445 words of font info for 66 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 41i,6n,25p,1614b,248s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/D064987/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.e
-nc}<C:/Users/D064987/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb><C:/Users/D064987/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/eurosym/feymr10.pfb><C:/Users/D064987/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/D064987/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/D064987/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/D064987/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on pervasiveComputingDocument.pdf (5 pages, 1678579 bytes).
+ 41i,6n,25p,1634b,248s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/User/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}
+<C:/Users/User/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/eurosym/feymr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/urw/times/utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/urw/times/utmbi8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/urw/times/utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/urw/times/utmri8a.pfb>
+Output written on pervasiveComputingDocument.pdf (5 pages, 1944771 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
+ 52 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
