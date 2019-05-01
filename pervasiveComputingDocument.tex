@@ -361,8 +361,8 @@
 \author{\IEEEauthorblockN{Henrik Lechte, Florian Finkel, Julia Grabinski, Cara Damm}
 \IEEEauthorblockA{University of Mannheim\\
 Pervasive Computing: Smart City Air Quality Sensors - FSS 2019\\
-Master of Businessinformatics\\ 
-Email: abc@xyz.com}
+Master of Business Informatics\\ 
+Email: \{first name\}.\{last name\}@mail.uni-mannheim.de}
 }
 
 % conference papers do not typically use \thanks and this command
@@ -427,7 +427,56 @@ Email: abc@xyz.com}
 % creates the second title. It will be ignored for other modes.
 \IEEEpeerreviewmaketitle
 
+\section{Introduction}
 
+Recent studies show the negative impact of bad air quality caused by industry and daily life on health and the environment. Furthermore, air quality is a topic which is facing much publicity due to its prevalence in law and media, especially regarding pollution laws leading to driving bans. Inhabitants of big cities are also affected by bad air quality, which might manifest itself in smog or an industrial smell.
+Meanwhile, the concept of internet of things devices is on the rise, enabled by increased computation power, cost and energy efficient sensors and the availability of a fast cellular network.
+\newline
+Due to this, the city of Perlheim may want to consider to implement an air quality control system based on a multitude of sensors in a connected network. Thereby, aggregated and location-based information about the current air quality can be provided.
+
+\section{Existing approaches}
+It should be noted that measuring air quality as part of a smart city is no new approach, but has already been discussed in research \cite{Nagaraj} and has also been implemented in real-world projects. Before describing our idea for the city of Perlheim, a brief overview of existing research and projects is given, futher showing that an air quality information system is a sensible idea. However, our concept is not directly based on one of these existing approaches.
+
+There is also already a basic air monitoring system in place in the Rhein-Neckar area.\cite{LandesanstaltfurUmweltBadenWurttemberg}
+However, the new smart city approach differs in several aspects from the already existing system:
+\begin{itemize} 
+\item The existing air monitoring consists of very few sensors per area. Our approach makes use of a higher number of small sensors to enable fine-granular monitoring.
+\item A new interconnected approach allows for futher integrating more sophisticated smart city concepts regarding automatic traffic diversion and health care in the future.
+\item With a live monitoring and an easy to use user interface, the visibility of the current air quality will be greatly improved for citizens.
+\end{itemize} 
+
+\section{Use cases}
+Monitoring the air quality and providing information directly might prove useful in differerent use cases. It is also important to note that air quality is a very relevant topic for the city of Perlheim. Perlheim's downtown area is heavily frequented by cars. Furthermore, the neighboring city is the headquarter of one of the world's biggest chemical companies whose emissions and increased risk of toxic accidents and fires might also adversely impact the air quality. 
+
+\subsection{Managing health risks}
+With an air quality information system, citizens can base their decision of when to leave the house or where to go for daily-life activities on the air quality. This might prove to be especially helpful for people with severe allergies or other adverse reactions to air pollutants. Also, health institutions can use the data and the home address of a patient to possibly correlate health issues with air pollution and thus providing more precise diagnosis. The air quality information system can also be used to give direct feedback in case of an acute risk by wildfires or leaks at chemical plants. In both cases it is usually recommended to stay inside. Negative health risks stemming from bad air quality may be:
+
+\begin{itemize} 
+\item The existing air monitoring consists of very few sensors per area. Our approach makes use of a higher number of small sensors to enable fine-granular monitoring.
+\item A new interconnected approach allows for futher integrating more sophisticated smart city concepts regarding automatic traffic diversion and health care in the future.
+\item With a live monitoring and an easy to use user interface, the visibility of the current air quality will be greatly improved for citizens.
+\end{itemize} 
+
+\subsection{Environmental damage}
+Bad air quality not only impacts human health, but also the well-being of animals and plants. A change in air quality can deeply affect an eco-system. Certain types of insects might decline in population, making room for pest and invasive species.
+
+\subsection{Enabling law execution}
+The impact of bad air quality has also been recognized by law makers. There are several laws governing the air pollution for industry and car traffic. The most important EU guideline is .... An air quality control system can help to enforce these laws. Unusual or extreme measurements can hint on law breaches or indicate that actions from government officials are required. It is also possible to integrate air quality information with automatic traffic control by diverting cars from heavily frequented areas and streets and thereby reducing their severity.
+
+
+
+\subsection{Psychological effect}
+Having a direct and real-time exposure to air quality data might result in a more green-thinking of citizens. This might lead to a voluntary switch from e.g. coal energy to a renewable energy provider or from environmental-unfriendly cars to electric vehicles.
+
+\section{Economic feasability}
+While the initial cost of sensors is not expected to be exceptionally high, maintenance and installation must also be accounted for. Several different approaches are possible.
+
+\subsection{Tax-payer based service}
+In the most straight-forward approach, the local municipality and thus indirectly the tax payer is responsible for covering all costs. The service is then provided to all citizens of Perlheim free of charge.
+\subsection{Subscription based service}
+Like other cloud services, the air quality information could be provided as a subscription for a small fee of a few euros per month. However, this bears the disadvantage that most people might not be interested in the service or do not consider the price-value ratio as attractive.
+\subsection{Data as a product}
+Historical and live data might be interesting for companies and researches. Selling complete data sets might be an additional approach to one of the other models. It could also be possible to keep some KPIs free and enabling additional information based on more specific sensors for a small fee.
 
 \section{Technical implementation}
 The basic idea is, to build an air quality sensor out of an Arduino and multiple other sensors, distribute multiple of those air quality sensors throughout Perheim, gather the measured data into a central database and display this data into an easy to use and visually appealing application. The following chapters will cover each of these steps in detail.
@@ -552,16 +601,8 @@ Simple table example:
 
 
 \section{Conclusion}
-The conclusion goes here \cite{Weyns2013}.
-See Figure \ref{fig:icon}.
+The conclusion goes here.
 
-Figure example:
-\begin{figure}[htbp]
-	\centering
-	\includegraphics[width=0.48\textwidth]{icon.png}
-	\caption{Caption}
-	\label{fig:icon}
-\end{figure}
 
 
 
@@ -569,13 +610,6 @@ Figure example:
 
 
 % use section* for acknowledgement
-\section*{Acknowledgment}
-
-
-The authors would like to thank...
-
-
-
 
 
 % trigger a \newpage just before the given reference
