@@ -535,11 +535,11 @@ Since these two backend endpoints should provide authorization and authenticatio
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.48\textwidth]{AirQualityOAuthCredentialsFlow.png}
-	\caption{Air quality sensor oauth credentials flow}
+	\caption{Air quality sensor OAuth credentials flow}
 	\label{fig:credentialsFlow}
 \end{figure}
 
-Usually oauth access tokens have an expiration date but for the first generation sensors each token can be used for an unlimited time period. In a later implementation phase the security concept should be reworked since the manual set up is tedious and using an access token for a prolonged time may result in security vulnerabilities. Such a security rework could include an oauth credentials flow automation where each sensor retrieves itself new access tokens in a set time intervalA without manual working steps.
+Usually OAuth access tokens have an expiration date but for the first generation sensors each token can be used for an unlimited time period. In a later implementation phase the security concept should be reworked since the manual set up is tedious and using an access token for a prolonged time may result in security vulnerabilities. Such a security rework could include an oauth credentials flow automation where each sensor retrieves itself new access tokens in a set time intervalA without manual working steps.
 
 Lastly an API for the frontend will be created. Here the following features are required:
 \begin{itemize}
