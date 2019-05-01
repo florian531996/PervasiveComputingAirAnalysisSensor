@@ -496,11 +496,12 @@ The sensors could also be sold to the citizens at a discount. Thereby, Perheim's
 Historical and live data might be interesting for companies and researches. Selling complete data sets might complement one of the other models. 
 
 
-\section{Technical implementation}
-The basic idea is to build an air quality sensor out of an Arduino and multiple other sensors, distribute numerous of those air quality sensors throughout Perheim, gather the measured data into a central database and display this data into an easy to use and visually appealing application. The following chapters will cover each of these steps in detail.
+\section{Technical implementation} \label{sec:TechnicalImplementation}
+In terms of technical implementation of the first generation of an air quality information system, the goal is to reduce costs and keep the technical aspects simple. Therefore, the air quality sensor will be built using an Arduino and multiple other sensors. Afterwards, numerous of these air quality sensors will be installed in Perheim. Following the installation, the measured data is loaded into a central database and displayed in an easy to use and visually appealing application. The following chapters will cover a possible implementation of each of these steps in detail.
 
 \subsection{Building the air quality sensor}
-First of all, it has to be determined what the final air quality sensor should measure. The European Union defined the European Air Quality Index (EAQI) in 2017 and it is similar to most of the Air Quality Index from other governments around the world, like the U.S. Environmental Protection Agency (EPA). It provides a set of air quality index levels: good, fair, moderate, poor and very poor. Furthermore, it defines multiple components, such as Ozone, particulate matter, Sulfur dioxide, Carbon monoxide and Nitrous oxide, that are getting measured and it provides a table to calculate the EAQI with the measured data of these components. Since the EAQI was created by the EU it is used throughout Europe and will also be used as a basis for the air quality sensor in Perheim (Germany). As the goal is to distribute a lot of air quality sensors in Perheim, the first generation of air quality sensors will be built with cheaper Sensors to make them more affordable. In a later stage, when the developed system got accepted and gets used frequently, sensors can be more expensive and of higher quality standards. With the focus on cheaper products, the following sensors will be used for the first-generation air quality sensors:
+First of all, it has to be determined what the final air quality sensor should measure. The European Union defined the European Air Quality Index (EAQI) in 2017 and it is similar to most of the Air Quality Index from other governments around the world, like the U.S. Environmental Protection Agency (EPA). It provides a set of air quality index levels: good, fair, moderate, poor and very poor. Furthermore, it defines multiple components, such as ozone, particulate matter, sulfur dioxide, carbon monoxide and nitrous oxide, that are getting measured and it provides a table to calculate the EAQI with the measured data of these components. Since the EAQI covers most of the important pollutants and is used throughout Europe, it will serve as the basis for the air quality sensors in Perheim (Germany). As the goal is to distribute a multitude of air quality sensors in Perheim, the first generation of air quality sensors will be built with inexpensive sensors to make them more affordable. In a later stage, when the developed system proves to be useful, sensors can be more expensive and of higher quality. With the focus on reducing the costs, the following sensors will be used for the first-generation air quality sensors:
+
 \begin{itemize}
 \item Ozone: \textit{SainSmart MQ131}
 \item Particulate matter: \textit{Grove Dust Sensor}
@@ -508,18 +509,19 @@ First of all, it has to be determined what the final air quality sensor should m
 \item Carbon monoxide: \textit{Mq9 Gas Sensor}
 \item Nitrous oxide: \textit{MICS-2714}
 \end{itemize}
-With these sensors all the components of the EAQI can be measured. Other important factors that play a crucial role to the severeness of the EAQI are the current temperature and humidity. That’s why a temperature and humidity sensor will also be integrated into the air quality sensor to improve the calculations. In the first iteration the \textit{SODIAL - Temperature and Relative Humidity Sensor} will be used. Another important feature is, that the final application has to use the location of each sensor to display the measured data at the corresponding site. Therefore, each air quality sensor will be equipped with a \textit{NEO-6M GPS} sensor to send the Global Positioning System (GPS) coordinates of its location with each measured data set. At last the internet module \textit{FONA Mini Cell GSM Breakout SMA} will be utilized to connect the Arduino to the internet and send the measured sensor data to a central system for further processing. All these hardware components will be soldered to a soldering board and thereby connected to an Arduino. The final construct will be placed in a weatherproof box that has three cutouts. A 5-Volt fan will be placed in the first cutout to blow the air through the box, along all the sensors and finally out of the second cutout. The third cutout is for a power supply for the Arduino. With that procedure many air quality sensors will be manufactured. The estimated cost of one sensor without the box is around 150 \euro. The needed Arduino coding to read all the measurements is not part of this document.
+
+With these sensors all the components of the EAQI can be measured. Other important factors that play an essential role to the severeness of the EAQI are the current temperature and humidity. This is why a temperature and humidity sensor will also be integrated into the air quality sensor to improve the calculations. In the first iteration the \textit{SODIAL - Temperature and Relative Humidity Sensor} will be used. Another important feature is, that the final application has to use the location of each sensor to display the measured data at the corresponding site. Therefore, each air quality sensor will be equipped with a \textit{NEO-6M GPS} sensor to send the Global Positioning System (GPS) coordinates of its location with each measured data set. At last, the internet module \textit{FONA Mini Cell GSM Breakout SMA} will be utilized to connect the Arduino to the internet and send the measured sensor data to a central system for further processing. All these hardware components will be soldered to a soldering board and thereby connected to the Arduino. The final construct will be placed in a weatherproof box that has three cutouts. A 5-Volt fan will be placed in the first cutout to blow the air through the box, along all the sensors and finally out of the second cutout. The third cutout is for a power supply for the Arduino. All initial air quality sensors will be manufactured using the procedure. The estimated cost of one sensor without the box is approximately 150 \euro. The required Arduino coding to read all the measurements is not part of this document.
 
 \subsection{Creating a backend to process incoming data and managing already placed air quality sensors}
-The backend system that provides an application programming interface (API) for each interaction type with both air quality sensors and the frontend application will be covered in this section. These APIs can be implemented in many ways, e.g. as a Representational State Transfer (REST) APIs or as a create, read, update, and delete (CRUD) APIs, but the detailed implementation of these APIe won’t be discussed in this document. The first API from the backend to be created will receive the sent measurements of the air quality sensors and will provide the following functionalities:
+The backend system that provides an application programming interface (API) for each interaction type with both air quality sensors and the frontend application will be covered in this section. These APIs can be implemented in many ways, e.g. as a Representational State Transfer (REST) APIs or as a create, read, update, and delete (CRUD) APIs, but the detailed implementation of these APIe won’t be discussed in this document. The first API will receive the sent measurements of the air quality sensors and will provide the following functionalities:
 \begin{itemize}
 \item Receive a set of data containing the measurements, a timestamp and location from a sensor in JavaScript Object Notation (JSON) format
 \item Save received data into a persistence as one tuple of the corresponding database table
 \item Error handling in the event of wrong message formats
-\item  Propagate crucial information if sensor measurements could be hazardous to health
+\item Propagate crucial information if sensor measurements could be hazardous to health
 \item Authorization and authentication checks for each request
 \end{itemize}
-Moreover, the backend will also provide another API that sensors can poll from to retrieve the current	interval time for sensor measurements. In case of numerous distributed sensors this API will make it easy to adjust said interval and avoid unnecessary manual labour. It will provide these features:
+Moreover, the backend will also provide another API that sensors can poll from to retrieve the current interval time for sensor measurements. In case of numerous distributed sensors this API will make it easy to adjust said interval and avoid unnecessary manual labour. It will provide these features:
 \begin{itemize}
 \item Accept GET requests and return the currently set measurement interval
 \item Accept PUT and POST request to set a new measurement interval
@@ -528,16 +530,16 @@ Moreover, the backend will also provide another API that sensors can poll from t
 \end{itemize}
 With the two APIs defined before all the required interactions between each air quality sensor and the backend can be achieved.
 
-Since these two backend endpoints should provide authorization and authentication checks, a corresponding security system has to be implemented. For the first generation sensors the widely established open standard OAuth 2.0 will be utilized. Therefore, the backend system will provide an authorization server that returns access tokens for the sensors. When a sensor is build the oauth client credentials flow has to be performed manually to retrieve an access token for the new sensor. After receiving the token it will be hardcoded into the sensor which will in return send this token in each of its measurement requests as authorization header. Figure \ref{fig:credentialsFlow} illustrates this concept in a simplified representation.
+Since these two backend endpoints should provide authorization and authentication checks, a corresponding security system has to be implemented. For the first generation sensors the widely established open standard OAuth 2.0 will be utilized. Therefore, the backend system will provide an authorization server that returns access tokens for the sensors. When a sensor is build the OAuth client credentials flow has to be performed manually to retrieve an access token for the new sensor. After receiving the token it will be hardcoded into the sensor which will in return send this token in each of its measurement requests as authorization header. Figure \ref{fig:credentialsFlow} illustrates this concept in a simplified representation.
 
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.48\textwidth]{AirQualityOAuthCredentialsFlow.png}
-	\caption{Air quality sensor oauth credentials flow}
+	\caption{Air quality sensor OAuth credentials flow}
 	\label{fig:credentialsFlow}
 \end{figure}
 
-Usually oauth access tokens have an expiration date but for the first generation sensors each token can be used for an unlimited time period. In a later implementation phase the security concept should be reworked since the manual set up is tedious and using an access token for a prolonged time may result in security vulnerabilities. Such a security rework could include an oauth credentials flow automation where each sensor retrieves itself new access tokens in a set time intervalA without manual working steps.
+Usually OAuth access tokens have an expiration date but for the first generation sensors each token can be used for an unlimited time period. In a later implementation phase the security concept should be reworked since the manual set up is tedious and using an access token for a prolonged time may result in security vulnerabilities. Such a security rework could include an oauth credentials flow automation where each sensor retrieves itself new access tokens in a set time intervalA without manual working steps.
 
 Lastly an API for the frontend will be created. Here the following features are required:
 \begin{itemize}
@@ -570,7 +572,7 @@ The user can interact with this map as he could in GoogleMaps and can also searc
 Notifications will be provided but no MockUp :>
 
 \section{Conclusion}
-The conclusion goes here.
+The implementation of an air quality information system in Perheim appears to be a reasonable concept. Through constant monitoring of various air pollutants, health risks can be reduced, environmental effects observed and laws enforced. By using inexpensive components and a simple archtitecture, costs are reduced and a first pilot implementation can be performed with comparitvely low effort. The first implementation serves as a foundation for a later extension with more sophisticated technology as well as integration to other smart home and city concepts. 
 
 
 
