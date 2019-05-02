@@ -86,6 +86,40 @@ L.~Adler, ``Monitoring air quality and the impacts of pollution: Three cities
   \url{https://www.epa.gov/report-environment/outdoor-air-quality}
 \BIBentrySTDinterwordspacing
 
+\bibitem{Dohmen.1984}
+G.~P. Dohmen, S.~McNeill, and J.~N.~B. Bell, ``Air pollution increases aphis
+  fabae pest potential,'' \emph{Nature}, vol. 307, no. 5946, pp. 52--53, 1984.
+
+\bibitem{Alstad.1982}
+D.~N. Alstad, G.~F. Edmunds, and L.~H. Weinstein, ``Effects of air pollutants
+  on insect populations,'' \emph{Annual Review of Entomology}, vol.~27, no.~1,
+  pp. 369--384, 1982.
+
+\bibitem{CRITTENDEN.1978}
+P.~d.~CRITTENDEN and D.~J. READ, ``The effects of air pollution on plant growth
+  with special reference to sulphur dioxide. i. introduction and chamber
+  conditions,'' \emph{New Phytologist}, vol.~80, no.~1, pp. 33--48, 1978.
+
+\bibitem{Umweltbundesamt.01.05.2019}
+\BIBentryALTinterwordspacing
+Umweltbundesamt, ``Schwefeldioxid-emissionen,'' 01.05.2019. [Online].
+  Available: \url{https://www.umweltbundesamt.de/daten/luft/
+  luftschadstoff-emissionen-in-deutschland/schwefeldioxid-emissionen}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Umweltbundesamt.2018}
+\BIBentryALTinterwordspacing
+------, ``Wirkungen auf {\"o}kosysteme,'' 2018. [Online]. Available:
+  \url{https://www.umweltbundesamt.de/themen/luft/wirkungen-von-luftschadstoffen/wirkungen-auf-oekosysteme\#textpart-1}
+\BIBentrySTDinterwordspacing
+
+\bibitem{UnitedStatesEnvironmentalProtectionAgency.01.05.2019}
+\BIBentryALTinterwordspacing
+{United States Environmental Protection Agency}, ``Ecosystem effects of ozone
+  pollution,'' 01.05.2019. [Online]. Available:
+  \url{https://www.epa.gov/ground-level-ozone-pollution/ecosystem-effects-ozone-pollution}
+\BIBentrySTDinterwordspacing
+
 \bibitem{EurpoeanUnion.2008}
 {Eurpoean Union}, ``2008/50/ec directive on ambient air quality and cleaner air
   for europe and 2004/107/ec directive on heavy metals and polycyclic aromatic
@@ -100,5 +134,79 @@ L.~Adler, ``Monitoring air quality and the impacts of pollution: Three cities
   \url{https://www.gesetze-im-internet.de/bimschg/BJNR007210974.html\#BJNR007210974BJNG000
   303360}
 \BIBentrySTDinterwordspacing
+
+\bibitem{EAQI}
+\BIBentryALTinterwordspacing
+``European air quality index.'' [Online]. Available:
+  \url{http://airindex.eea.europa.eu/\#}
+\BIBentrySTDinterwordspacing
+
+\bibitem{EuropaLuftQuali}
+\BIBentryALTinterwordspacing
+``Europ{\"a}ischer luftqualit{\"a}tsindex: Jederzeit aktuelle daten zur
+  luftqualit{\"a}t.'' [Online]. Available:
+  \url{https://www.eea.europa.eu/de/highlights/europaeischer-luftqualitaetsindex-jederzeit-aktuelle-daten}
+\BIBentrySTDinterwordspacing
+
+\bibitem{DefinitionIndizes}
+\BIBentryALTinterwordspacing
+``Air quality now - {\"u}ber uns - definition der indizes.'' [Online].
+  Available: \url{http://airqualitynow.eu/de/about_indices_definition.php}
+\BIBentrySTDinterwordspacing
+
+\bibitem{.d}
+\BIBentryALTinterwordspacing
+``Mq-131 gas sensor ozone module.'' [Online]. Available:
+  \url{https://www.sainsmart.com/products/mq-131-gas-sensor-ozone-module}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Bill.27.04.2019c}
+\BIBentryALTinterwordspacing
+Bill, ``Grove - dust sensor - seeed wiki,'' 27.04.2019. [Online]. Available:
+  \url{http://wiki.seeedstudio.com/Grove-Dust_Sensor/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Bill.27.04.2019}
+\BIBentryALTinterwordspacing
+------, ``Grove - gas sensor(mq2) - seeed wiki,'' 27.04.2019. [Online].
+  Available: \url{http://wiki.seeedstudio.com/Grove-Gas_Sensor-MQ2/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Bill.27.04.2019b}
+\BIBentryALTinterwordspacing
+------, ``Grove - gas sensor(mq9) - seeed wiki,'' 27.04.2019. [Online].
+  Available: \url{http://wiki.seeedstudio.com/Grove-Gas_Sensor-MQ9/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{.c}
+\BIBentryALTinterwordspacing
+``Mics-2714 amphenol sgx sensortech | mouser.'' [Online]. Available:
+  \url{https://www.mouser.de/ProductDetail/Amphenol-SGX-Sensortech/MICS-2714?qs=YCa\%2FAAYMW00IhKRBVpgT1g\%3D\%3D}
+\BIBentrySTDinterwordspacing
+
+\bibitem{TempAndHumSensor}
+\BIBentryALTinterwordspacing
+``386 adafruit | mouser.'' [Online]. Available:
+  \url{https://www.mouser.de/ProductDetail/Adafruit/386?qs=sGAEpiMZZMsMyYRRhGMFNh01bQ8voJljBK9gPXpRcgg\%3D}
+\BIBentrySTDinterwordspacing
+
+\bibitem{.e}
+\BIBentryALTinterwordspacing
+``Sn01 xinabox | mouser.'' [Online]. Available:
+  \url{https://eu.mouser.com/ProductDetail/XinaBox/SN01?qs=sGAEpiMZZMtH\%2FBOfAD3t9SA9KENoyfzH2cCqJcahHe2IfNcAOMriDQ\%3D\%3D}
+\BIBentrySTDinterwordspacing
+
+\bibitem{MiniCellGsm}
+\BIBentryALTinterwordspacing
+``1963 adafruit | mouser.'' [Online]. Available:
+  \url{https://eu.mouser.com/ProductDetail/Adafruit/1963?qs=GURawfaeGuAX4JJdsOfuYw\%3D\%3D}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Darwish.2015}
+M.~Darwish and A.~Ouda, ``Evaluation of an oauth 2.0 protocol implementation
+  for web server applications,'' in \emph{2015 International Conference and
+  Workshop on Computing and Communication (IEMCON)}, S.~Chakrabar and H.~N.
+  Saha, Eds.\hskip 1em plus 0.5em minus 0.4em\relax Piscataway, NJ: IEEE, 2015,
+  pp. 1--4.
 
 \end{thebibliography}
