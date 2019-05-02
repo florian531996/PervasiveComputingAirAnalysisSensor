@@ -1,12 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  2 MAY 2019 09:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.23)  2 MAY 2019 10:02
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**pervasiveComputingDocument.tex
-(./pervasiveComputingDocument.tex
-LaTeX2e <2018-04-01> patch level 2
-Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
-(./IEEEtran.cls
+**./pervasiveComputingDocument.tex
+(pervasiveComputingDocument.tex
+LaTeX2e <2018-04-01> patch level 5
+(IEEEtran.cls
 Document Class: IEEEtran 2012/11/21 V1.8c by Harald Hanche-Olsen and Anders Chr
 istensen
 -- Based on V1.7a by Michael Shell
@@ -19,7 +16,8 @@ istensen
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 373.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd
+"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -92,35 +90,43 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \@IEEEtmpitemindent=\dimen116
 \c@IEEEbiography=\count91
 \@IEEEtranrubishbin=\box26
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+)
+("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphic
+x.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.
+sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphic
+s.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.st
+y"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\gra
+phics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdf
+tex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen117
 \Gin@req@width=\dimen118
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/tabularx.sty
+("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\tabularx.s
+ty"
 Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
-Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
+("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
 \col@sep=\dimen119
 \ar@mcellbox=\box27
 \extrarowheight=\dimen120
@@ -137,11 +143,13 @@ Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
 \TX@cols=\count92
 \TX@ftn=\toks17
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/underscore/underscore.sty
+("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\latex\underscore\under
+score.sty"
 Package: underscore 2006/09/13
 LaTeX Info: Redefining \_ on input line 42.
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/fixltx2e.sty
+("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fixltx2e.st
+y"
 Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
 Applying: [2015/01/01] Old fixltx2e package on input line 46.
 
@@ -151,11 +159,12 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 (fixltx2e)                See the latexrelease package for details.
 
 Already applied: [0000/00/00] Old fixltx2e package on input line 53.
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/eurosym/eurosym.sty
+)
+("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eurosym\eurosym.
+sty"
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 \@eurobox=\box29
-)
-(./pervasiveComputingDocument.aux)
+) (pervasiveComputingDocument.aux)
 \openout1 = `pervasiveComputingDocument.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 353.
@@ -171,7 +180,8 @@ LaTeX Font Info:    ... okay on input line 353.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 353.
 LaTeX Font Info:    ... okay on input line 353.
 
-(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.
+mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count93
 \scratchdimen=\dimen126
@@ -184,31 +194,41 @@ LaTeX Font Info:    ... okay on input line 353.
 \MPnumerator=\count97
 \makeMPintoPDFobject=\count98
 \everyMPtoPDFconversion=\toks19
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+)
+("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopd
+f-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwa
+rerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.
+sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdef
+inekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcm
+ds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptio
+ns.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvset
+keys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexc
+mds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\iflua
+tex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -217,12 +237,14 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdfte
+xcmds.sty"
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf
+.sty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -235,72 +257,64 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
+)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 446.
+(Font)              <7> on input line 447.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 446.
+(Font)              <5> on input line 447.
 
-Underfull \hbox (badness 4582) in paragraph at lines 452--455
+Underfull \hbox (badness 4582) in paragraph at lines 453--456
 []\OT1/ptm/m/n/10 Monitoring the air qual-ity and pro-vid-ing real-time
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 452--455
+Underfull \hbox (badness 1603) in paragraph at lines 453--456
 \OT1/ptm/m/n/10 is heav-ily fre-quented by cars. Fur-ther-more, one of the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 452--455
+Underfull \hbox (badness 10000) in paragraph at lines 453--456
 
  []
 
-[1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+[1{C:/Users/D064987/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 478.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 479.
 
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsptm.fd
+("C:\Users\D064987\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd
+"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 478.
- [2]
-Underfull \vbox (badness 1803) has occurred while \output is active []
-
-<AirQualityOAuthCredentialsFlow.png, id=14, 6658.8775pt x 4322.1475pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 479.
+ [2] [3]
+<AirQualityOAuthCredentialsFlow.png, id=17, 6658.8775pt x 4322.1475pt>
 File: AirQualityOAuthCredentialsFlow.png Graphic file (type png)
 <use AirQualityOAuthCredentialsFlow.png>
 Package pdftex.def Info: AirQualityOAuthCredentialsFlow.png  used on input line
- 538.
+ 539.
 (pdftex.def)             Requested size: 251.56563pt x 163.22768pt.
- [3]
-<perheimMapMockup.png, id=20, 728.9634pt x 542.025pt>
+<perheimMapMockup.png, id=19, 728.9634pt x 542.025pt>
 File: perheimMapMockup.png Graphic file (type png)
 <use perheimMapMockup.png>
-Package pdftex.def Info: perheimMapMockup.png  used on input line 559.
+Package pdftex.def Info: perheimMapMockup.png  used on input line 560.
 (pdftex.def)             Requested size: 251.56563pt x 187.04845pt.
-<DetailedSensorMeasurementsMockup.png, id=21, 653.8026pt x 522.753pt>
+<DetailedSensorMeasurementsMockup.png, id=20, 653.8026pt x 522.753pt>
 File: DetailedSensorMeasurementsMockup.png Graphic file (type png)
 <use DetailedSensorMeasurementsMockup.png>
 Package pdftex.def Info: DetailedSensorMeasurementsMockup.png  used on input li
-ne 568.
+ne 569.
 (pdftex.def)             Requested size: 251.56563pt x 201.13689pt.
-<NotificationsMockup.png, id=22, 677.4108pt x 542.025pt>
+<NotificationsMockup.png, id=21, 677.4108pt x 542.025pt>
 File: NotificationsMockup.png Graphic file (type png)
 <use NotificationsMockup.png>
-Package pdftex.def Info: NotificationsMockup.png  used on input line 577.
+Package pdftex.def Info: NotificationsMockup.png  used on input line 578.
 (pdftex.def)             Requested size: 251.56563pt x 201.28218pt.
-
-[4 <./AirQualityOAuthCredentialsFlow.png> <./perheimMapMockup.png> <./DetailedS
-ensorMeasurementsMockup.png> <./NotificationsMockup.png>]
-(./pervasiveComputingDocument.bbl
+ (pervasiveComputingDocument.bbl [4 <./AirQualityOAuthCredentialsFlow.png> <./p
+erheimMapMockup.png> <./DetailedSensorMeasurementsMockup.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 74--80
 \OT1/ptm/m/n/8 http://www.euro.who.int/[]-[]-data/assets/pdf[]-file/0006/238956
 /Health[]-
@@ -348,46 +362,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--150
  []
 
 
-Underfull \hbox (badness 5893) in paragraph at lines 183--186
-\OT1/ptm/m/n/8 Avail-able: https://www.mouser.de/ProductDetail/Amphenol-SGX-
- []
-
-
-Overfull \hbox (9.99648pt too wide) in paragraph at lines 183--186
-\OT1/ptm/m/n/8 Sensortech/MICS-2714?qs=YCa%2FAAYMW00IhKRBVpgT1g%3D%3D 
- []
-
-
-Underfull \hbox (badness 3635) in paragraph at lines 189--192
+Underfull \hbox (badness 3635) in paragraph at lines 189--193
 []\OT1/ptm/m/n/8 ``386 adafruit | mouser.'' [On-line]. Avail-able:
  []
 
 
-Overfull \hbox (162.77066pt too wide) in paragraph at lines 189--192
-\OT1/ptm/m/n/8 https://www.mouser.de/ProductDetail/Adafruit/386?qs=sGAEpiMZZMsM
-yYRRhGMFNh01bQ8voJljBK9gPXpRcgg%3D 
- []
-
-
-Underfull \hbox (badness 2951) in paragraph at lines 195--198
+Underfull \hbox (badness 2951) in paragraph at lines 196--200
 []\OT1/ptm/m/n/8 ``Sn01 xin-abox | mouser.'' [On-line]. Avail-able:
  []
 
 
-Overfull \hbox (237.99408pt too wide) in paragraph at lines 195--198
-\OT1/ptm/m/n/8 https://eu.mouser.com/ProductDetail/XinaBox/SN01?qs=sGAEpiMZZMtH
-%2FBOfAD3t9SA9KENoyfzH2cCqJcahHe2IfNcAOMriDQ%3D%3D 
+Overfull \hbox (2.1236pt too wide) in paragraph at lines 196--200
+\OT1/ptm/m/n/8 https://eu.mouser.com/ProductDetail/XinaBox/SN01?qs=sGAEpiMZZM
  []
 
 
-Underfull \hbox (badness 3108) in paragraph at lines 201--204
+Underfull \hbox (badness 3108) in paragraph at lines 203--207
 []\OT1/ptm/m/n/8 ``1963 adafruit | mouser.'' [On-line]. Avail-able:
  []
 
 
-Overfull \hbox (79.65924pt too wide) in paragraph at lines 201--204
-\OT1/ptm/m/n/8 https://eu.mouser.com/ProductDetail/Adafruit/1963?qs=GURawfaeGuA
-X4JJdsOfuYw%3D%3D 
+Underfull \hbox (badness 10000) in paragraph at lines 203--207
+\OT1/ptm/m/n/8 https://eu.mouser.com/ProductDetail/Adafruit/1963?qs=GURawfaeGu
  []
 
 )
@@ -402,26 +398,27 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[5] (./pervasiveComputingDocument.aux) ) 
+[5 <./NotificationsMockup.png>] (pervasiveComputingDocument.aux) ) 
 Here is how much of TeX's memory you used:
- 2396 strings out of 492649
- 38964 string characters out of 6129622
- 110066 words of memory out of 5000000
- 6254 multiletter control sequences out of 15000+600000
- 35338 words of font info for 65 fonts, out of 8000000 for 9000
+ 2394 strings out of 492970
+ 40138 string characters out of 3125705
+ 108036 words of memory out of 3000000
+ 6244 multiletter control sequences out of 15000+200000
+ 35338 words of font info for 65 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 41i,6n,25p,1667b,205s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fon
-ts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/
-eurosym/feymr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/u
-tmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb
-></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/loc
-al/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on pervasiveComputingDocument.pdf (5 pages, 1936701 bytes).
+ 41i,6n,25p,1669b,233s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/D06
+4987/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/D0
+64987/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb><C:/Users/D064987/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/euros
+ym/feymr10.pfb><C:/Users/D064987/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+urw/times/utmb8a.pfb><C:/Users/D064987/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/urw/times/utmbi8a.pfb><C:/Users/D064987/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/urw/times/utmr8a.pfb><C:/Users/D064987/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on pervasiveComputingDocument.pdf (5 pages, 1952387 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
+ 52 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
