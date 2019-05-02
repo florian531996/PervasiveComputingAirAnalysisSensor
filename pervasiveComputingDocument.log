@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  2 MAY 2019 09:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  2 MAY 2019 09:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -272,6 +272,8 @@ File: omsptm.fd
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 478.
  [2]
+Underfull \vbox (badness 1803) has occurred while \output is active []
+
 <AirQualityOAuthCredentialsFlow.png, id=14, 6658.8775pt x 4322.1475pt>
 File: AirQualityOAuthCredentialsFlow.png Graphic file (type png)
 <use AirQualityOAuthCredentialsFlow.png>
@@ -416,7 +418,7 @@ eurosym/feymr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/u
 tmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/loc
 al/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on pervasiveComputingDocument.pdf (5 pages, 1936683 bytes).
+Output written on pervasiveComputingDocument.pdf (5 pages, 1936701 bytes).
 PDF statistics:
  54 PDF objects out of 1000 (max. 8388607)
  32 compressed objects within 1 object stream
